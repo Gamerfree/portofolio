@@ -11,7 +11,7 @@ h1 {
 }
 
 p {
-    color: white;
+    color: black;
 }
 
 .container {
@@ -78,8 +78,51 @@ p {
     margin: auto;
 }
 
-.kotak p {
-    color: black;
+.kotak h3 {
     font-size: 40px;
-    text-align: center;
+}
+
+.profile {
+    width: 80%;
+    margin-left: 20%;
+    height: 100vh;
+}
+
+.kotak1 h3 {
+    font-size: 25px;
+    padding: 100px 0px 50px 100px;
+}
+
+.kotak2 {
+    width: 90%;
+    float: right;
+}
+
+.kotak2 p {
+    color: black;
+    font-size: 19px;
+    text-align: justify;
+}
+
+.kotak2 img {
+    float: right;
+    margin-left: 10%;
+    border-radius: 50%;
+}
+
+.saringan {
+    width: 90%;
+    height: 100vh;
+    float: right;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.saringan ul li {
+    float: left;
+    width: 50%;
+    overflow: hidden;
+    padding: 20px;
+    border: 2px solid black;
 }
