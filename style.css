@@ -111,7 +111,7 @@ p {
 }
 
 .saringan {
-    width: 90%;
+    width: 100%;
     height: 100vh;
     float: right;
     justify-content: center;
@@ -119,10 +119,49 @@ p {
     display: flex;
 }
 
+.saringan ul {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    float: left;
+    width: 100%;
+}
+
 .saringan ul li {
     float: left;
-    width: 50%;
-    overflow: hidden;
     padding: 20px;
     border: 2px solid black;
+}
+
+.sharingan {
+    float: right;
+    height: 100vh;
+    width: 90%;
+}
+
+.sharingan ul {
+    float: left;
+    align-items: center;
+    justify-content: center;
+}
+
+.sharingan ul li {
+    width: 220px;
+    height: 250px;
+    float: left;
+    padding: 20px;
+    overflow: hidden;
+    margin: 10px 10px;
+    border-radius: 5px;
+    box-shadow: .7px .7px 3px rgb(73, 73, 73);
+}
+
+.sharingan ul li a {
+    color: black;
+    text-align: justify;
+}
+
+.sharingan img {
+    width: 100%;
+    height: 50%;
 }
