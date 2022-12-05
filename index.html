@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="style.css">
     <title>Portofolio</title>
 </head>
 <body>
     <div class="container">
-        <div class="wrapper">
-            <ul>
+        <div class="wrapper" data-aos="fade-right" data-aos-duration="800" data-aos-easing="ease-out">
+            <ul> 
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#skill">Skill</a></li>
@@ -20,8 +21,8 @@
         </div>
         <div class="profil" id="home">
             <div class="kotak">
-                <img src="foto-profile.jpg" alt="foto saya" width="10%">
-                <h3>Cecep Muhamad Taufik</h3>
+                <img src="foto-profile.jpg" alt="foto saya" width="10%" data-aos="fade-down" data-aos-duration="800">
+                <h3 data-aos="fade-up" data-aos-duration="800">Cecep Muhamad Taufik</h3>
             </div>
         </div>
     </div>
@@ -137,14 +138,43 @@
         </div>
         <div class="pembungkus2">
             <ul>
-                <li><a href="https://www.instagram.com/gamer_free222/" target="_blank">Instagram</a></li>
-                <li><a href="https://github.com/Gamerfree" target="_blank">github</a></li>
-                <li><a href="https://wa.me/6281286964918" target="_blank">Whatsapp</a></li>
-                <li><a href="https://www.facebook.com/profile.php?id=100024916711713" target="_blank">Facebook</a></li>
-                <li><a href="https://twitter.com/akuisajalah22" target="_blank">Twitter</a></li>
+                <li>
+                    <a href="https://www.instagram.com/gamer_free222/" target="_blank">
+                        <img src="insta-logo.png" width="100%">
+                        <p>instagram</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/Gamerfree" target="_blank">
+                        <img src="github-logo.jpg" width="150%">
+                        <p>github</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://wa.me/6281286964918" target="_blank">
+                        <img src="whatsapp-logo.png" width="100%">
+                        <p>Whatsapp</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/profile.php?id=100024916711713" target="_blank">
+                        <img src="Facebook-logo.png" width="100%">
+                        <p>Facebook</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/akuisajalah22" target="_blank">
+                        <img src="Twitter-logo.svg.webp" width="100%" style="margin-top: 6px;">
+                        <p>Twitter</p>
+                    </a>
+                </li>
             </ul>
         </div>
     </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script src="javascript.js"></script>
 </body>
 </html>

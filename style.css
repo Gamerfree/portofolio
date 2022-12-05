@@ -1,3 +1,5 @@
+html {scroll-behavior: auto;}
+
 * {
     margin: 0;
     padding: 0;
@@ -32,10 +34,12 @@ a {
     width: 20%;
     height: 100vh;
     display: flex;
-    background-color: black;
     position: fixed;
     justify-content: center;
     align-items: center;
+    background-color: black;
+    box-shadow: .8px .8px 5px rgb(24, 24, 24);
+    z-index: 3;
 }
 
 .wrapper ul {
@@ -59,7 +63,7 @@ a {
 }
 
 .wrapper ul li a:hover {
-    color: white;
+    color: rgb(0, 183, 255);
 }
 
 .wrapper ul li a:active {
@@ -165,15 +169,15 @@ tr {
     float: right;
     height: inherit;
     width: 100%;
-    display: flex;
     justify-content: center;
     align-items: center;
+    display: flex;
 }
 
 .sharingan ul {
     float: left;
-    align-items: center;
-    justify-content: center;
+    width: 80%;
+    margin-left: 6vw;
 }
 
 .sharingan ul li {
@@ -253,4 +257,11 @@ tr {
 .pembungkus2 ul li {
     float: left;
     margin: 0px 20px;
+    width: 80px;
+    text-align: center;
+}
+
+.pembungkus2 img {
+    width: 40%;
+    margin: auto;
 }
